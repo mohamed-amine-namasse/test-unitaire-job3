@@ -45,4 +45,5 @@ On test le comportement en cas d'expression invalide (2+bad)
 
 On test le cas d'une chaine vide calculatrice php
 ![alt text](image-16.png)
+On test le cas d'une chaine vide calculatrice js
 ![alt text](image-17.png)
