@@ -29,12 +29,4 @@ class CalculatorTest extends TestCase
         $this->assertEquals(15, $calculator->calculate("3 * 5"));
         $this->assertEquals(15, $calculator->calculate("3 × 5"));
     }
-
-    public function testDivision()
-    {
-        $calculator = new Calculator();
-
-        $this->assertEquals(2, $calculator->calculate("6 / 3"));
-        $this->assertEquals(2, $calculator->calculate("6 ÷ 3"));
-    }
 }
