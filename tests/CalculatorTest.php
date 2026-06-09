@@ -37,4 +37,11 @@ class CalculatorTest extends TestCase
         $this->assertEquals(2, $calculator->calculate("6 / 3"));
         $this->assertEquals(2, $calculator->calculate("6 ÷ 3"));
     }
+    public function testChaineVide()
+    {
+        $calculator = new Calculator();
+
+
+        $this->assertNull($calculator->calculate(""));
+    }
 }

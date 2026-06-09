@@ -40,3 +40,9 @@ On test Les parenthèses ((2+3)\*4)
 
 On test le comportement en cas d'expression invalide (2+bad)
 ![alt text](image-15.png)
+
+## Bonus
+
+On test le cas d'une chaine vide calculatrice php
+![alt text](image.png)
+![alt text](image-16.png)

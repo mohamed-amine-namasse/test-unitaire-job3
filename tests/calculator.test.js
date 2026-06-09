@@ -41,4 +41,10 @@ describe("Tests de la calculatrice avec Jest", () => {
       calculate("2+bad");
     }).toThrow("Expression invalide");
   });
+  //  test pour cas de chaîne vide
+  test("afficher une erreur en cas de chaîne vide", () => {
+    expect(() => {
+      calculate("");
+    }).toThrow("Expression invalide");
+  });
 });
