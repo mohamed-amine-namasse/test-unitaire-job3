@@ -18,6 +18,10 @@ On test la division
 ![alt text](image-7.png)
 ![alt text](image-8.png)
 
+On test la division par zero
+![alt text](image-20.png)
+![alt text](image-21.png)
+
 ## On crée un fichier `calculator.test.js` dans `tests/`
 
 On test l'addition

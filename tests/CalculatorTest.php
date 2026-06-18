@@ -37,6 +37,15 @@ class CalculatorTest extends TestCase
         $this->assertEquals(2, $calculator->calculate("6 / 3"));
         $this->assertEquals(2, $calculator->calculate("6 ÷ 3"));
     }
+
+    public function testDivisionParZero()
+    {
+        $calculator = new Calculator();
+
+        $this->expectException(\RuntimeException::class);
+
+        $calculator->calculate("6 / 0");
+    }
     public function testChaineVide()
     {
         $calculator = new Calculator();
